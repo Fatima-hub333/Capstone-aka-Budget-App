@@ -1,9 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Record, type: :request do
-   let(:user) { User.create!(name: 'Nneka', email: 'ada@ada.com', password: 'password') }
-   let (:category) { user.categories.create(name: 'Games', icon: 'multi-colored.png') }
-   let(:record) { user.records.create(name: 'clothes', amount: 20) }
+  let(:user) { User.create!(name: 'Nneka', email: 'ada@ada.com', password: 'password') }
+  let(:category) { user.categories.create(name: 'Games', icon: 'multi-colored.png') }
+  let(:record) { user.records.create(name: 'clothes', amount: 20) }
   let(:category_record) { CategoriesRecord.create(category_id: category.id, record_id: expense.id) }
 
   before(:each) do
@@ -24,7 +24,6 @@ RSpec.describe Record, type: :request do
   #   @category.save!
   #   login_as user
   # end
-
 
   describe 'GET #index page' do
     it 'tests the URL path for records#index' do

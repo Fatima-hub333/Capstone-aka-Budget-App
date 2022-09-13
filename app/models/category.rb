@@ -8,6 +8,6 @@ class Category < ApplicationRecord
   validates :icon, presence: true, length: { maximum: 250 }
 
   def most_recent
-      records.order(created_at: :DESC)
+    records.order(created_at: :DESC)
   end
 end
