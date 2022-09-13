@@ -8,6 +8,8 @@ gem 'devise'
 gem 'cancancan'
 
 gem "sassc-rails"
+
+gem 'rails-controller-testing'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
