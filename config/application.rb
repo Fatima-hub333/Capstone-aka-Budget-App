@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require "rails/all"
 require_relative 'boot'
 
 require 'rails/all'
