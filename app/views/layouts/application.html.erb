@@ -17,12 +17,7 @@
     <script src="https://kit.fontawesome.com/9ef5f4f831.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
-    <div>
-    <% flash.each do |name, msg| -%>
-      <%= content_tag :span, msg, class: name %>
-    <% end -%>
-  </div>
-    <%= yield %>
-  </body>
+<body>
+  <%= yield %>
+</body>
 </html>
