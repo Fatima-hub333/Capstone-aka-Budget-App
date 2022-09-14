@@ -6,6 +6,12 @@
 ## Project Requirements
 - Click [HERE](https://github.com/microverseinc/curriculum-rails/blob/main/capstone/rails_capstone.md) for details of project requirements 
 
+## [LiveDemo]
+(https://budget1231p.herokuapp.com/)
+
+## [VideoPresentationLink]
+(https://www.loom.com/share/2fc55c9260de4e2d8ca9ab946b5b3848)
+
 
 ## Built With
 
