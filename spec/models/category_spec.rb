@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe Category, type: :model do
   before(:each) do
-    @user = User.create!(name: 'Hayya', email: 'fatima@ada.com', password: 'password')
+    @user = User.create!(name: 'Adaobi', email: 'ada@ada.com', password: 'password')
     @category = @user.categories.new(name: 'Games')
   end
 

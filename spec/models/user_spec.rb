@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe User, type: :model do
   before(:each) do
-    @user = User.new(name: 'Hayya', email: 'fatima@ada.com', password: 'password')
+    @user = User.new(name: 'Adaobi', email: 'ada@ada.com', password: 'password')
   end
 
   it 'User should be valid' do
